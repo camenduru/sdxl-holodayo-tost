@@ -5,7 +5,7 @@
     "steps": 28,
     "cfg": 7.0,
     "sampler_name": "euler",
-    "scheduler": "normal",
+    "scheduler": "simple",
     "width": 832,
     "height": 1216
 }
