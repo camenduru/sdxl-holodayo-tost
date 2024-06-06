@@ -1,6 +1,11 @@
 {
-    "prompt": "(masterpiece), best quality, expressive eyes, perfect face",
+    "positive_prompt": "1girl, nakiri ayame, nakiri ayame (1st costume), hololive, solo, upper body, v, smile, looking at viewer, outdoors, night, masterpiece, best quality, very aesthetic, absurdres",
     "negative_prompt": "(low quality, worst quality:1.2), very displeasing, 3d, watermark, signature, ugly, poorly drawn",
-    "width": 1152,
-    "height": 832
+    "seed": 0,
+    "steps": 28,
+    "cfg": 7.0,
+    "sampler_name": "euler",
+    "scheduler": "normal",
+    "width": 832,
+    "height": 1216
 }
