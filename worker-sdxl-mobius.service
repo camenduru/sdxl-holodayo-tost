@@ -1,0 +1,13 @@
+[Unit]
+Description=Worker SDXL Holodayo
+After=syslog.target network.target
+[Service]
+User=root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+Environment="GRADIO_ANALYTICS_ENABLED=False"
+Environment="server_port=1172"
+WorkingDirectory=/content/com.camenduru/sdxl-holodayo-tost
+ExecStart=/bin/bash -c '. /content/sdxl-holodayo-xl-2.1-venv/bin/activate && python worker.py'
+Restart=always
+[Install]
+WantedBy=multi-user.target

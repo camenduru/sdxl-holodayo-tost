@@ -1,0 +1,6 @@
+{
+    "prompt": "(masterpiece), best quality, expressive eyes, perfect face",
+    "negative_prompt": "(low quality, worst quality:1.2), very displeasing, 3d, watermark, signature, ugly, poorly drawn",
+    "width": 1152,
+    "height": 832
+}
